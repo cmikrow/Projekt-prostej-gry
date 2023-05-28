@@ -1,0 +1,1 @@
+stworz tablice kóra worzy wiersze i sprawdza czy wystepuje tam pocisk i wktórym kierunku zmierza
