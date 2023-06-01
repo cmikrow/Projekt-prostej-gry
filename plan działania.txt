@@ -1,1 +1,10 @@
 stworz tablice kóra worzy wiersze i sprawdza czy wystepuje tam pocisk i wktórym kierunku zmierza
+29.05.2023  - Pętla for/while po spełnieniu jednokrotnym warunku np.
+warunek = True
+while warunek:
+  while i in range(2,6,1)
+    zmienna = 2
+    poleindeksowane[zmienna] = '='
+    zmienna += 1
+    if zmienna == 6
+      warunek = False
