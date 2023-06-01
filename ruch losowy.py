@@ -15,6 +15,7 @@ turabota = False
 strzalwiersz1 = False
 strzalwiersz2 = False
 strzalwiersz3 = False
+przemieszczeniepocisku1 = False
 polegracz1 = 1
 polegracz2 = 6
 polegracz3 = 11
@@ -61,6 +62,37 @@ while pojedynek:
     tura += 1
     if strzalwiersz1 == True:
         pole[2] = '0'
+        przemieszczeniepocisku1 = True
+        if przemieszczeniepocisku1 = True and input() != '':
+            pole[2] = '2'
+            pole[3] = '0'
+            if przemieszczeniepocisku1 = True and input() != '':
+                pole[3] = '3'
+                pole[4] = '0'
+                if pole[4] == '0' and polebota1 == '<':
+                    print("Wygrałeś")
+    if strzalwiersz2 == True:
+        pole[7] = '0'
+        przemieszczeniepocisku1 = True
+        if przemieszczeniepocisku1 = True and input() != '':
+            pole[7] = '7'
+            pole[8] = '0'
+            if przemieszczeniepocisku1 = True and input() != '':
+                pole[8] = '8'
+                pole[9] = '0'
+                if pole[9] == '0' and polebota2 == '<':
+                    print("Wygrałeś")
+    if strzalwiersz3 == True:
+        pole[12] = '0'
+        przemieszczeniepocisku1 = True
+        if przemieszczeniepocisku1 = True and input() != '':
+            pole[12] = '12'
+            pole[13] = '0'
+            if przemieszczeniepocisku1 = True and input() != '':
+                pole[13] = '13'
+                pole[14] = '0'
+                if pole[14] == '0' and polebota3 == '<':
+                    print("Wygrałeś")
          
     while turabota == True:
         if pole[polebota1] == '<' and opcjabota == 1:
@@ -79,6 +111,5 @@ while pojedynek:
             print("Bot przestał chwilowo działać :( 'nie wykonany ruch'")
     print("Ruch bota"),
     print(opcjabota)
-    print(losowyruch)
     pokazmape(pole)
     time.sleep(3)
