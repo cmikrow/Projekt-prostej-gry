@@ -63,10 +63,10 @@ while pojedynek:
     if strzalwiersz1 == True:
         pole[2] = '0'
         przemieszczeniepocisku1 = True
-        if przemieszczeniepocisku1 = True and input() != '':
+        if przemieszczeniepocisku1 == True and input() != '':
             pole[2] = '2'
             pole[3] = '0'
-            if przemieszczeniepocisku1 = True and input() != '':
+            if przemieszczeniepocisku1 == True and input() != '':
                 pole[3] = '3'
                 pole[4] = '0'
                 if pole[4] == '0' and polebota1 == '<':
@@ -74,10 +74,10 @@ while pojedynek:
     if strzalwiersz2 == True:
         pole[7] = '0'
         przemieszczeniepocisku1 = True
-        if przemieszczeniepocisku1 = True and input() != '':
+        if przemieszczeniepocisku1 == True and input() != '':
             pole[7] = '7'
             pole[8] = '0'
-            if przemieszczeniepocisku1 = True and input() != '':
+            if przemieszczeniepocisku1 == True and input() != '':
                 pole[8] = '8'
                 pole[9] = '0'
                 if pole[9] == '0' and polebota2 == '<':
@@ -85,10 +85,10 @@ while pojedynek:
     if strzalwiersz3 == True:
         pole[12] = '0'
         przemieszczeniepocisku1 = True
-        if przemieszczeniepocisku1 = True and input() != '':
+        if przemieszczeniepocisku1 == True and input() != '':
             pole[12] = '12'
             pole[13] = '0'
-            if przemieszczeniepocisku1 = True and input() != '':
+            if przemieszczeniepocisku1 == True and input() != '':
                 pole[13] = '13'
                 pole[14] = '0'
                 if pole[14] == '0' and polebota3 == '<':
